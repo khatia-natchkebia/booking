@@ -1,0 +1,708 @@
+.navbar #navbarSupportedContent {
+    flex-grow: 0;
+}
+
+.container {
+    max-width: 1140px;
+}
+
+body>nav {
+    background-color: #003b95;
+}
+
+nav .nav-link {
+    color: white;
+}
+
+nav svg {
+    width: 26px;
+    height: 24px;
+    padding-bottom: 0.1rem;
+}
+
+
+nav #modalBody {
+    flex-wrap: wrap;
+}
+
+nav .modal-header {
+    border-style: none;
+    padding: 1.5rem 1.5rem 0;
+    color: black;
+}
+
+nav h3 {
+    font-size: 14px;
+    padding-left: 0.5rem;
+    font-weight: 700;
+}
+
+nav .modal-body #aedBtn,
+nav .modal-body #aedBtn .form-floating {
+    height: 5rem;
+}
+
+.btn-primary:hover {
+    background-color: #003b95
+}
+
+
+nav .btn .form-control-plaintext {
+    text-align: start;
+}
+
+
+nav .modal-body .form-control-plaintext {
+    color: #1a1a1a;
+}
+
+nav li>.btn img {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+
+}
+
+nav .modal img {
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 50%;
+}
+
+#modalBodysecond .btn {
+
+    height: 2.8rem;
+    padding-top: 0.5rem;
+    font-size: 14px;
+    color: #1a1a1a;
+}
+
+#modalBodysecond .btn>div {
+    display: flex;
+    flex-direction: row;
+}
+
+#modalBodysecond .btn figure {
+    margin-right: 1rem;
+}
+
+#currencyBtn {
+    color: white;
+}
+
+#navbarSupportedContent .acount a {
+    background-color: white;
+    border: 1px solid rgba(55, 129, 212, 0.411);
+    color: #006ce4;
+    border-radius: 0.2rem;
+    padding: 0.3rem 0.7rem;
+    margin: 0.3rem 0.5rem 0;
+    font-size: 14px;
+}
+
+#navbarSupportedContent .acount a:hover {
+    background-color: rgba(244, 249, 255, 0.788);
+
+}
+
+nav .nav-item {
+    height: 3rem;
+    border-radius: 5px;
+    padding-top: 0.2rem;
+}
+
+nav .nav-pills .nav-item a:hover {
+    color: white;
+}
+
+
+nav #navbarSupportedContent .nav-item:hover,
+nav .nav-pills .nav-item:hover {
+    background-color: rgba(55, 129, 212, 0.411);
+    color: white;
+}
+
+nav .nav-pills .nav-item {
+    border: 1px solid transparent;
+    border-radius: 1.5rem;
+}
+
+#secondnav .nav-pills a[class*=active] {
+    border: 1px solid white;
+    border-radius: 1.5rem;
+    background-color: rgba(55, 129, 212, 0.411);
+}
+
+#secondnav {
+    padding: 0 0 1rem;
+    font-size: 14px;
+}
+
+#datalistOptions option {
+    width: 3rem;
+}
+
+.container form>div {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffb700;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px 0 rgba(26, 26, 26, 0.16);
+    padding: 4px;
+    gap: 0.2rem;
+}
+
+.formDropdown .destInput {
+    border: unset;
+    height: 3rem;
+}
+
+.formDropdown .btn-light,
+.dropdown .btn-light {
+    width: 100%;
+    height: 100%;
+    text-align: start;
+    font-size: 14px;
+    color: #474747;
+}
+
+form .dropdown .list-unstyled li {
+    border-bottom: 1px solid #e7e7e7;
+}
+
+
+.subHeading {
+    color: #141D38;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0.7rem 1rem;
+    font-weight: 700;
+}
+
+
+.formDropdown .dropdown-menu {
+    background-color: white;
+}
+
+form .dropdown-menu svg {
+    width: 1.7rem;
+    height: 2em;
+    margin-right: 0.8rem;
+}
+
+form .dropdown .country {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.formDropdown .btn-light:hover,
+form .dropdown-toggle:hover,
+#dateinput:hover {
+    box-shadow: 0 0 0 1px #f56700;
+    background-color: white;
+}
+
+form #dateinput,
+form .dropdown {
+    border-radius: 4px;
+    flex-grow: 3;
+    height: 3.5rem;
+    width: 3.5rem;
+}
+
+main form .btn-primary {
+    font-size: 20px;
+    margin-left: 0.1rem;
+    height: 3.5rem;
+    flex: 1;
+    min-width: 2rem;
+}
+
+form .btn-primary:hover {
+    background-color: #003b95;
+}
+
+input[type=date] {
+    font-size: 14px;
+    border-style: none;
+    flex-grow: 1;
+    border-radius: 4px;
+}
+
+
+
+form .dropdown-menu input[type="number"] {
+    padding: 0 1rem;
+    width: 6rem;
+}
+
+form .dropdown-menu {
+    min-width: 350px;
+    border-style: none;
+    box-shadow: 0 2px 16px 0 rgba(26, 26, 26, 0.24);
+
+}
+
+form .dropdown-toggle {
+    flex-grow: 1;
+    height: 3.5rem;
+    font-size: 14px;
+    color: #474747;
+}
+
+.wrapper {
+    background: linear-gradient(to top,
+            transparent 0%,
+            transparent 65%,
+            #003b95 65%,
+            #003b95 100%);
+}
+
+nav .breadcrumb {
+    font-size: 12px;
+    padding-top: 0.5rem;
+    text-decoration: none;
+}
+
+nav .breadcrumb a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.h2 {
+    padding: 0.3rem 0.5rem;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+aside {
+    width: 27%;
+    min-width: 230px;
+}
+
+.aside {
+    border: 1px solid #e7e7e7;
+    border-radius: 8px;
+
+}
+
+.aside .d-flex {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.aside label {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #1a1a1a;
+    padding: 0.2rem;
+}
+
+.aside>div {
+    border-bottom: 1px solid #e7e7e7;
+    border-width: 100%;
+    padding: 0.8rem;
+}
+
+.aside #flexSwitchCheckDefault label {
+    flex-direction: column;
+}
+
+.aside h3+span {
+    font-size: 12px;
+    margin-bottom: 0.5rem;
+}
+
+
+.aside .btn {
+    position: relative;
+    right: 1rem;
+    bottom: 0.4rem;
+    padding-left: 2rem;
+    margin-bottom: 0;
+}
+
+.aside .card .form-check,
+.aside .card {
+    position: relative;
+    width: 15rem;
+    right: 35px;
+    border-style: none;
+}
+
+.aside p {
+    margin-bottom: 0;
+}
+
+aside figure span {
+    top: 3.5rem;
+}
+
+aside figure {
+    margin-top: 0.5rem;
+    background-image: url(files/map.png);
+    height: 9rem;
+    border-radius: 8px;
+    position: relative;
+}
+
+aside figure>div {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+aside figure>.btn {
+    position: absolute;
+    top: 4.9rem;
+    left: 4.9rem;
+}
+
+.header figure {
+    background-image: url(files/map.png);
+    width: 160px;
+    height: 72px;
+    border-radius: 8px;
+}
+
+.mainContent {
+    width: 955px;
+    min-width: 800px;
+}
+
+.mainContent .btn-outline-primary {
+    border-radius: 2rem;
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.mainContent .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2.7rem;
+}
+
+main .mainContent .dropdown-menu {
+    border-style: none;
+    font-size: 14px;
+    color: #1a1a1a;
+    line-height: 2.2rem;
+    box-shadow: 0 2px 8px 0 rgba(26, 26, 26, 0.16);
+}
+
+.cards #first {
+    background-color: #f0f6ff;
+    border-color: #a3d7fc;
+    box-shadow: 0 0 8px #a3d7fc;
+}
+
+.card p {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+main .mainContent .card img {
+    margin: 1rem 0 1rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.card .ribbbon {
+    position: absolute;
+    background-color: #008234;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px 0 rgba(26, 26, 26, 0.16);
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 18px;
+    top: 1.5rem;
+    left: -0.5rem;
+    padding: 0.3rem;
+}
+
+.card .ribbbonDetail {
+    position: absolute;
+    top: 2.4rem;
+    left: -0.7rem;
+}
+
+.card .heart {
+    position: absolute;
+    top: 1rem;
+    left: 10rem;
+}
+
+.card .heart svg:hover {
+    fill: red;
+}
+
+.card-body .rating .title {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #1a1a1a;
+}
+
+.card-body .rating .title a:hover {
+    color: #1a1a1a;
+}
+
+.card-body .rating p {
+    font-size: 12px;
+    text-align: end;
+}
+
+.card-body #locationRating {
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 2.5rem;
+}
+
+
+.card-body .rating {
+    display: flex;
+}
+
+.card-body .rating .btn {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    background-color: #003b95;
+    padding: 0.3rem 0.3rem;
+    margin: 0.3rem 0 0 0.5rem;
+    border-radius: 8px 8px 8px 0;
+}
+
+.card .card-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #006ce4;
+}
+
+.card .card-body #links a {
+    font-weight: 600;
+    text-decoration: underline;
+    padding-right: 0.5rem;
+    font-size: 12px;
+}
+
+.card .card-body a {
+    text-decoration: none;
+}
+
+.card .card-body .review {
+    margin-left: 0.3rem;
+    border-left: 2px solid #e7e7e7;
+    padding-left: 0.4rem;
+    line-height: 19px;
+}
+
+.card-body .review #breakfast .boldOnes {
+    font-weight: 600;
+}
+
+.card-body .review #breakfast p {
+    color: #008234;
+}
+
+.card-body .review .left {
+    color: #d4111e;
+    font-weight: 600;
+}
+
+.card-body .availability span {
+    font-size: 13px;
+    color: #d4111e;
+    text-decoration: line-through;
+    margin-right: 0.3rem;
+}
+
+.card-body .availability div {
+    font-size: 20px;
+    font-weight: 500;
+    color: #1a1a1a;
+}
+
+.card .card-body .btn-succsess {
+    font-size: 12px;
+}
+
+main .toast {
+    display: show;
+}
+
+main nav ul {
+    border: 1px solid #e7e7e7;
+    line-height: 2rem;
+    border-radius: 8px;
+}
+
+.page-link {
+    border: none;
+}
+
+div {
+    font-size: 14px;
+}
+
+footer .footerForm {
+    display: block;
+    height: 15rem;
+    background-color: #00224f;
+}
+
+footer h2 {
+    font-size: 24px;
+    color: #fff;
+    line-height: 32px;
+    font-weight: 300;
+}
+
+footer h2+div {
+    font-size: 16px;
+    line-height: 24px;
+    color: #bdbdbd;
+}
+
+
+footer .footerContent {
+    margin: 0 33%;
+}
+
+footer form .btn {
+    padding: 0.7rem 2rem;
+    line-height: 28px;
+    font-size: 20px;
+    font-weight: 300;
+    border-radius: 3px;
+}
+
+footer form input {
+    font-size: 20px;
+    line-height: 2rem;
+    color: #6b6b6b;
+    border: none;
+    border-radius: 3px;
+    font-weight: 100;
+    padding: 10px;
+    width: 100%;
+}
+
+footer .footerMenu {
+    background-color: #003b95;
+}
+
+.footerMenu>div:first-child a {
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 0.2rem 1rem;
+    color: white;
+    text-decoration: none;
+
+}
+
+.footerMenu>div:first-child {
+    border-bottom: 2px solid white;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+footer .footerMenu li {
+    display: inline;
+    color: white;
+    text-decoration: underline;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 3rem;
+    border-right: 1px solid #003580;
+}
+
+.footerNavigation a {
+    display: block;
+    text-decoration: none;
+    font-weight: 400;
+    color: #006ce4;
+    line-height: 14px;
+    font-size: 13px;
+    margin-top: 0.6rem;
+}
+
+.extranetLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8rem;
+}
+
+.extranetLink a {
+    font-size: 15px;
+}
+
+footer .container a:hover {
+
+    color: #bc5b01;
+}
+
+footer .copyright {
+    font-size: 11px;
+    font-weight: 200;
+}
+
+footer .services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .pricelineList {
+    width: 70%;
+}
+
+@media (max-width:991px) {
+    form>div {
+        height: 228px;
+        flex-direction: column;
+    }
+
+    form .input-group,
+    form #dateinput,
+    form .dropdown,
+    form .btn {
+        width: 100%;
+        height: 50px;
+    }
+
+    .wrapper {
+        background: linear-gradient(to top,
+                transparent 0%,
+                transparent 20%,
+                #003b95 20%,
+                #003b95 100%);
+    }
+
+}
